@@ -1,7 +1,7 @@
 function main() {
     load();
 
-    setInterval(load, 1000);
+    setInterval(load, 100);
 }
 
 function load() {
@@ -17,7 +17,7 @@ function load() {
         msg.innerHTML += `<p>Bom dia!</p>`;
         img.src = 'img/manha.jpg';
     } else if (hora < 18) {
-        msg.innerHTML += `<p>Boa tarde!</p?`;
+        msg.innerHTML += `<p>Boa tarde!</p>`;
         img.src = 'img/tarde.jpg';
     } else {
         msg.innerHTML += `<p>Boa noite!</p>`;
