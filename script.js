@@ -1,4 +1,6 @@
 function main() {
+    load();
+
     setInterval(load, 1000);
 }
 
